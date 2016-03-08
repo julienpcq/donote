@@ -1,0 +1,48 @@
+.note_index{
+  h4 a{
+    color: $dark_grey;
+
+  }
+  position: relative;
+  min-height: 200px;
+  background-color: lightgrey;
+  padding: 10px;
+  margin-bottom: 1em;
+  margin-top: 2em;
+  border-bottom: 5px solid $main_green;
+  box-shadow: 5px 5px 5px grey;
+  .note-options
+  {
+  position: absolute;
+  bottom: 0;
+  padding: 5px;
+  .fa{
+    color:$dark_grey;
+  }
+  }
+}
+h4{
+    color:$dark_grey;
+  }
+
+.note_show{
+  position: relative;
+  min-height: 200px;
+  background-color: lightgrey;
+  padding: 10px;
+  margin-bottom: 50px;
+  border-bottom: 5px solid $main_green;
+  box-shadow: 5px 5px 5px grey;
+  h1{
+    text-align: center;
+  }
+  .note_options
+  {
+  position: absolute;
+  bottom: 0;
+  padding: 5px;
+  .fa{
+    color:$dark_grey;
+  }
+  }
+}

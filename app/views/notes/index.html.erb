@@ -1,0 +1,37 @@
+
+  <div class="row">
+    <div class="col-lg-12">
+      <div class="search-bar">
+        <form class="form-inline">
+          <%= search_form_for @q do |f| %>
+          <div class="form-group">
+            <%= f.search_field :title_or_content_cont, class: "form-control search-field", type: "text" %>
+          </div>
+          <%= f.button :submit, class: "search-button" do %><i class="fa fa-search"></i><% end %>
+          <% end %>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <div class="row">
+    <% @notes.each do |n| %>
+    <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+      <div class="note_index">
+        <h4><%= link_to n.title, n %></h4>
+        <small><%= time_ago_in_words(n.created_at) %> ago</small>
+        <p><%= truncate(n.content, length: 100) %></p>
+        <div class="index-note-options">
+          <div class="note-options">
+            <%= link_to "", edit_note_path(n), class: "fa fa-pencil" %>
+            <%= link_to "", note_path(n), method: :delete, data: { confirm: "Etes-vous sûr ?"}, class: "fa fa-trash-o" %>
+          </div>
+        </div>
+      </div>
+    </div>
+    <% end %>
+  </div>
+
+
+
+

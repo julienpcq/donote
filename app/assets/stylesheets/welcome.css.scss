@@ -1,0 +1,48 @@
+// Place all the styles related to the welcome controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+#hello{
+  position: relative;
+  background-image: url("http://placekitten.com/g/1920/1080");
+  background-position: center;
+  background-attachment: fixed;
+  margin-left: -15px;
+  margin-right: -15px;
+  margin-top: -40px;
+  margin-bottom: -40px;
+  min-height: 90vh;
+  z-index:0;
+
+  #welcome_text{
+    text-align: center;
+    padding: 100px;
+    color:white;
+    font-size: 30px;
+    #home_title{
+      color: $main_green;
+    }
+  }
+  #home_sign_in{
+    text-align: center;
+    .btn{
+      background-color: $main_green;
+      border-radius: 0px;
+      color: white;
+    }
+    .btn>a{
+      color:white;
+    }
+    .btn:hover{
+      background-color: #09F071;
+    }
+    .btn>a:hover{
+      color: white;
+    }
+  }
+}
+
+@media screen and (max-width: 600px){
+  #hello>#welcome_text{
+    font-size: 20px;
+  }
+}
