@@ -45,3 +45,5 @@ gem 'haml', '~> 4.0', '>= 4.0.7'
 
 gem 'ransack', '~> 1.7' #This gem is a search enfine
 
+gem 'rails_12factor'
+
