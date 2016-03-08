@@ -1,0 +1,646 @@
+/*
+
+*/
+/*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
+/**
+ * 1. Set default font family to sans-serif.
+ * 2. Prevent iOS and IE text size adjust after device orientation change,
+ *    without disabling user zoom.
+ */
+/* line 9, /Users/julien/Work/Dev/Ruby/donote/app/assets/stylesheets/normalize.css.scss */
+html {
+  font-family: sans-serif;
+  /* 1 */
+  -ms-text-size-adjust: 100%;
+  /* 2 */
+  -webkit-text-size-adjust: 100%;
+  /* 2 */
+}
+
+/**
+ * Remove default margin.
+ */
+/* line 19, /Users/julien/Work/Dev/Ruby/donote/app/assets/stylesheets/normalize.css.scss */
+body {
+  margin: 0;
+}
+
+/* HTML5 display definitions
+   ========================================================================== */
+/**
+ * Correct `block` display not defined for any HTML5 element in IE 8/9.
+ * Correct `block` display not defined for `details` or `summary` in IE 10/11
+ * and Firefox.
+ * Correct `block` display not defined for `main` in IE 11.
+ */
+/* line 33, /Users/julien/Work/Dev/Ruby/donote/app/assets/stylesheets/normalize.css.scss */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+menu,
+nav,
+section,
+summary {
+  display: block;
+}
+
+/**
+ * 1. Correct `inline-block` display not defined in IE 8/9.
+ * 2. Normalize vertical alignment of `progress` in Chrome, Firefox, and Opera.
+ */
+/* line 54, /Users/julien/Work/Dev/Ruby/donote/app/assets/stylesheets/normalize.css.scss */
+audio,
+canvas,
+progress,
+video {
+  display: inline-block;
+  /* 1 */
+  vertical-align: baseline;
+  /* 2 */
+}
+
+/**
+ * Prevent modern browsers from displaying `audio` without controls.
+ * Remove excess height in iOS 5 devices.
+ */
+/* line 67, /Users/julien/Work/Dev/Ruby/donote/app/assets/stylesheets/normalize.css.scss */
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+
+/**
+ * Address `[hidden]` styling not present in IE 8/9/10.
+ * Hide the `template` element in IE 8/9/10/11, Safari, and Firefox < 22.
+ */
+/* line 77, /Users/julien/Work/Dev/Ruby/donote/app/assets/stylesheets/normalize.css.scss */
+[hidden],
+template {
+  display: none;
+}
+
+/* Links
+   ========================================================================== */
+/**
+ * Remove the gray background color from active links in IE 10.
+ */
+/* line 89, /Users/julien/Work/Dev/Ruby/donote/app/assets/stylesheets/normalize.css.scss */
+a {
+  background-color: transparent;
+}
+
+/**
+ * Improve readability of focused elements when they are also in an
+ * active/hover state.
+ */
+/* line 98, /Users/julien/Work/Dev/Ruby/donote/app/assets/stylesheets/normalize.css.scss */
+a:active,
+a:hover {
+  outline: 0;
+}
+
+/* Text-level semantics
+   ========================================================================== */
+/**
+ * Address styling not present in IE 8/9/10/11, Safari, and Chrome.
+ */
+/* line 110, /Users/julien/Work/Dev/Ruby/donote/app/assets/stylesheets/normalize.css.scss */
+abbr[title] {
+  border-bottom: 1px dotted;
+}
+
+/**
+ * Address style set to `bolder` in Firefox 4+, Safari, and Chrome.
+ */
+/* line 118, /Users/julien/Work/Dev/Ruby/donote/app/assets/stylesheets/normalize.css.scss */
+b,
+strong {
+  font-weight: bold;
+}
+
+/**
+ * Address styling not present in Safari and Chrome.
+ */
+/* line 127, /Users/julien/Work/Dev/Ruby/donote/app/assets/stylesheets/normalize.css.scss */
+dfn {
+  font-style: italic;
+}
+
+/**
+ * Address variable `h1` font-size and margin within `section` and `article`
+ * contexts in Firefox 4+, Safari, and Chrome.
+ */
+/* line 136, /Users/julien/Work/Dev/Ruby/donote/app/assets/stylesheets/normalize.css.scss */
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+/**
+ * Address styling not present in IE 8/9.
+ */
+/* line 145, /Users/julien/Work/Dev/Ruby/donote/app/assets/stylesheets/normalize.css.scss */
+mark {
+  background: #ff0;
+  color: #000;
+}
+
+/**
+ * Address inconsistent and variable font size in all browsers.
+ */
+/* line 154, /Users/julien/Work/Dev/Ruby/donote/app/assets/stylesheets/normalize.css.scss */
+small {
+  font-size: 80%;
+}
+
+/**
+ * Prevent `sub` and `sup` affecting `line-height` in all browsers.
+ */
+/* line 162, /Users/julien/Work/Dev/Ruby/donote/app/assets/stylesheets/normalize.css.scss */
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+/* line 170, /Users/julien/Work/Dev/Ruby/donote/app/assets/stylesheets/normalize.css.scss */
+sup {
+  top: -0.5em;
+}
+
+/* line 174, /Users/julien/Work/Dev/Ruby/donote/app/assets/stylesheets/normalize.css.scss */
+sub {
+  bottom: -0.25em;
+}
+
+/* Embedded content
+   ========================================================================== */
+/**
+ * Remove border when inside `a` element in IE 8/9/10.
+ */
+/* line 185, /Users/julien/Work/Dev/Ruby/donote/app/assets/stylesheets/normalize.css.scss */
+img {
+  border: 0;
+}
+
+/**
+ * Correct overflow not hidden in IE 9/10/11.
+ */
+/* line 193, /Users/julien/Work/Dev/Ruby/donote/app/assets/stylesheets/normalize.css.scss */
+svg:not(:root) {
+  overflow: hidden;
+}
+
+/* Grouping content
+   ========================================================================== */
+/**
+ * Address margin not present in IE 8/9 and Safari.
+ */
+/* line 204, /Users/julien/Work/Dev/Ruby/donote/app/assets/stylesheets/normalize.css.scss */
+figure {
+  margin: 1em 40px;
+}
+
+/**
+ * Address differences between Firefox and other browsers.
+ */
+/* line 212, /Users/julien/Work/Dev/Ruby/donote/app/assets/stylesheets/normalize.css.scss */
+hr {
+  box-sizing: content-box;
+  height: 0;
+}
+
+/**
+ * Contain overflow in all browsers.
+ */
+/* line 221, /Users/julien/Work/Dev/Ruby/donote/app/assets/stylesheets/normalize.css.scss */
+pre {
+  overflow: auto;
+}
+
+/**
+ * Address odd `em`-unit font size rendering in all browsers.
+ */
+/* line 229, /Users/julien/Work/Dev/Ruby/donote/app/assets/stylesheets/normalize.css.scss */
+code,
+kbd,
+pre,
+samp {
+  font-family: monospace, monospace;
+  font-size: 1em;
+}
+
+/* Forms
+   ========================================================================== */
+/**
+ * Known limitation: by default, Chrome and Safari on OS X allow very limited
+ * styling of `select`, unless a `border` property is set.
+ */
+/**
+ * 1. Correct color not being inherited.
+ *    Known issue: affects color of disabled elements.
+ * 2. Correct font properties not being inherited.
+ * 3. Address margins set differently in Firefox 4+, Safari, and Chrome.
+ */
+/* line 252, /Users/julien/Work/Dev/Ruby/donote/app/assets/stylesheets/normalize.css.scss */
+button,
+input,
+optgroup,
+select,
+textarea {
+  color: inherit;
+  /* 1 */
+  font: inherit;
+  /* 2 */
+  margin: 0;
+  /* 3 */
+}
+
+/**
+ * Address `overflow` set to `hidden` in IE 8/9/10/11.
+ */
+/* line 266, /Users/julien/Work/Dev/Ruby/donote/app/assets/stylesheets/normalize.css.scss */
+button {
+  overflow: visible;
+}
+
+/**
+ * Address inconsistent `text-transform` inheritance for `button` and `select`.
+ * All other form control elements do not inherit `text-transform` values.
+ * Correct `button` style inheritance in Firefox, IE 8/9/10/11, and Opera.
+ * Correct `select` style inheritance in Firefox.
+ */
+/* line 277, /Users/julien/Work/Dev/Ruby/donote/app/assets/stylesheets/normalize.css.scss */
+button,
+select {
+  text-transform: none;
+}
+
+/**
+ * 1. Avoid the WebKit bug in Android 4.0.* where (2) destroys native `audio`
+ *    and `video` controls.
+ * 2. Correct inability to style clickable `input` types in iOS.
+ * 3. Improve usability and consistency of cursor style between image-type
+ *    `input` and others.
+ */
+/* line 290, /Users/julien/Work/Dev/Ruby/donote/app/assets/stylesheets/normalize.css.scss */
+button,
+html input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+  -webkit-appearance: button;
+  /* 2 */
+  cursor: pointer;
+  /* 3 */
+}
+
+/**
+ * Re-set default cursor for disabled elements.
+ */
+/* line 302, /Users/julien/Work/Dev/Ruby/donote/app/assets/stylesheets/normalize.css.scss */
+button[disabled],
+html input[disabled] {
+  cursor: default;
+}
+
+/**
+ * Remove inner padding and border in Firefox 4+.
+ */
+/* line 311, /Users/julien/Work/Dev/Ruby/donote/app/assets/stylesheets/normalize.css.scss */
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+
+/**
+ * Address Firefox 4+ setting `line-height` on `input` using `!important` in
+ * the UA stylesheet.
+ */
+/* line 322, /Users/julien/Work/Dev/Ruby/donote/app/assets/stylesheets/normalize.css.scss */
+input {
+  line-height: normal;
+}
+
+/**
+ * It's recommended that you don't attempt to style these elements.
+ * Firefox's implementation doesn't respect box-sizing, padding, or width.
+ *
+ * 1. Address box sizing set to `content-box` in IE 8/9/10.
+ * 2. Remove excess padding in IE 8/9/10.
+ */
+/* line 334, /Users/julien/Work/Dev/Ruby/donote/app/assets/stylesheets/normalize.css.scss */
+input[type="checkbox"],
+input[type="radio"] {
+  box-sizing: border-box;
+  /* 1 */
+  padding: 0;
+  /* 2 */
+}
+
+/**
+ * Fix the cursor style for Chrome's increment/decrement buttons. For certain
+ * `font-size` values of the `input`, it causes the cursor style of the
+ * decrement button to change from `default` to `text`.
+ */
+/* line 346, /Users/julien/Work/Dev/Ruby/donote/app/assets/stylesheets/normalize.css.scss */
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+/**
+ * 1. Address `appearance` set to `searchfield` in Safari and Chrome.
+ * 2. Address `box-sizing` set to `border-box` in Safari and Chrome.
+ */
+/* line 356, /Users/julien/Work/Dev/Ruby/donote/app/assets/stylesheets/normalize.css.scss */
+input[type="search"] {
+  -webkit-appearance: textfield;
+  /* 1 */
+  box-sizing: content-box;
+  /* 2 */
+}
+
+/**
+ * Remove inner padding and search cancel button in Safari and Chrome on OS X.
+ * Safari (but not Chrome) clips the cancel button when the search input has
+ * padding (and `textfield` appearance).
+ */
+/* line 367, /Users/julien/Work/Dev/Ruby/donote/app/assets/stylesheets/normalize.css.scss */
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/**
+ * Define consistent border, margin, and padding.
+ */
+/* line 376, /Users/julien/Work/Dev/Ruby/donote/app/assets/stylesheets/normalize.css.scss */
+fieldset {
+  border: 1px solid #c0c0c0;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em;
+}
+
+/**
+ * 1. Correct `color` not being inherited in IE 8/9/10/11.
+ * 2. Remove padding so people aren't caught out if they zero out fieldsets.
+ */
+/* line 387, /Users/julien/Work/Dev/Ruby/donote/app/assets/stylesheets/normalize.css.scss */
+legend {
+  border: 0;
+  /* 1 */
+  padding: 0;
+  /* 2 */
+}
+
+/**
+ * Remove default vertical scrollbar in IE 8/9/10/11.
+ */
+/* line 396, /Users/julien/Work/Dev/Ruby/donote/app/assets/stylesheets/normalize.css.scss */
+textarea {
+  overflow: auto;
+}
+
+/**
+ * Don't inherit the `font-weight` (applied by a rule above).
+ * NOTE: the default cannot safely be changed in Chrome and Safari on OS X.
+ */
+/* line 405, /Users/julien/Work/Dev/Ruby/donote/app/assets/stylesheets/normalize.css.scss */
+optgroup {
+  font-weight: bold;
+}
+
+/* Tables
+   ========================================================================== */
+/**
+ * Remove most spacing between table cells.
+ */
+/* line 416, /Users/julien/Work/Dev/Ruby/donote/app/assets/stylesheets/normalize.css.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 421, /Users/julien/Work/Dev/Ruby/donote/app/assets/stylesheets/normalize.css.scss */
+td,
+th {
+  padding: 0;
+}
+
+/* line 4, /Users/julien/Work/Dev/Ruby/donote/app/assets/stylesheets/global.css.scss */
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  background-color: #EDEDED;
+}
+
+/* line 12, /Users/julien/Work/Dev/Ruby/donote/app/assets/stylesheets/global.css.scss */
+.fa {
+  font-size: 2em;
+}
+
+/* line 16, /Users/julien/Work/Dev/Ruby/donote/app/assets/stylesheets/global.css.scss */
+#wrapper {
+  position: relative;
+  min-height: 100vh;
+  z-index: 0;
+  padding-bottom: 50px;
+}
+
+/* line 23, /Users/julien/Work/Dev/Ruby/donote/app/assets/stylesheets/global.css.scss */
+#main-content {
+  position: relative;
+  padding-bottom: 50px;
+}
+/* line 26, /Users/julien/Work/Dev/Ruby/donote/app/assets/stylesheets/global.css.scss */
+#main-content a {
+  color: green;
+}
+
+/* line 31, /Users/julien/Work/Dev/Ruby/donote/app/assets/stylesheets/global.css.scss */
+.form-control:focus {
+  border-color: rgba(126, 239, 104, 0.8);
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(126, 239, 104, 0.6);
+  outline: 0 none;
+}
+
+/* line 37, /Users/julien/Work/Dev/Ruby/donote/app/assets/stylesheets/global.css.scss */
+.search-field {
+  background-color: transparent;
+  border-bottom-right-radius: 1em;
+  border-top-right-radius: 1em;
+  border-bottom-left-radius: 1em;
+  border-top-left-radius: 1em;
+}
+
+/* line 45, /Users/julien/Work/Dev/Ruby/donote/app/assets/stylesheets/global.css.scss */
+.search-bar {
+  text-align: center;
+}
+
+/* line 50, /Users/julien/Work/Dev/Ruby/donote/app/assets/stylesheets/global.css.scss */
+.search-button {
+  border: none;
+  background-color: transparent;
+}
+
+/* line 55, /Users/julien/Work/Dev/Ruby/donote/app/assets/stylesheets/global.css.scss */
+.navbar {
+  z-index: 1;
+  background-color: #333333;
+  border-bottom: 5px solid #06A950;
+  position: relative;
+}
+
+/* line 61, /Users/julien/Work/Dev/Ruby/donote/app/assets/stylesheets/global.css.scss */
+.navbar-default.navbar-nav > li > a {
+  color: #D3D3D3;
+}
+
+/* line 64, /Users/julien/Work/Dev/Ruby/donote/app/assets/stylesheets/global.css.scss */
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+  color: #EDEDED;
+}
+
+/* line 70, /Users/julien/Work/Dev/Ruby/donote/app/assets/stylesheets/global.css.scss */
+.navbar-default .navbar-brand {
+  color: #d6d6d6;
+}
+
+/* line 74, /Users/julien/Work/Dev/Ruby/donote/app/assets/stylesheets/global.css.scss */
+.alert {
+  z-index: 4;
+}
+
+/* line 79, /Users/julien/Work/Dev/Ruby/donote/app/assets/stylesheets/global.css.scss */
+footer {
+  position: absolute;
+  background-color: #333333;
+  color: lightgrey;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  padding: 10px;
+}
+
+/* line 1, /Users/julien/Work/Dev/Ruby/donote/app/assets/stylesheets/notes.css.scss */
+.note_index {
+  position: relative;
+  min-height: 200px;
+  background-color: lightgrey;
+  padding: 10px;
+  margin-bottom: 1em;
+  margin-top: 2em;
+  border-bottom: 5px solid #06A950;
+  box-shadow: 5px 5px 5px grey;
+}
+/* line 2, /Users/julien/Work/Dev/Ruby/donote/app/assets/stylesheets/notes.css.scss */
+.note_index h4 a {
+  color: #333333;
+}
+/* line 14, /Users/julien/Work/Dev/Ruby/donote/app/assets/stylesheets/notes.css.scss */
+.note_index .note-options {
+  position: absolute;
+  bottom: 0;
+  padding: 5px;
+}
+/* line 19, /Users/julien/Work/Dev/Ruby/donote/app/assets/stylesheets/notes.css.scss */
+.note_index .note-options .fa {
+  color: #333333;
+}
+
+/* line 24, /Users/julien/Work/Dev/Ruby/donote/app/assets/stylesheets/notes.css.scss */
+h4 {
+  color: #333333;
+}
+
+/* line 28, /Users/julien/Work/Dev/Ruby/donote/app/assets/stylesheets/notes.css.scss */
+.note_show {
+  position: relative;
+  min-height: 200px;
+  background-color: lightgrey;
+  padding: 10px;
+  margin-bottom: 50px;
+  border-bottom: 5px solid #06A950;
+  box-shadow: 5px 5px 5px grey;
+}
+/* line 36, /Users/julien/Work/Dev/Ruby/donote/app/assets/stylesheets/notes.css.scss */
+.note_show h1 {
+  text-align: center;
+}
+/* line 39, /Users/julien/Work/Dev/Ruby/donote/app/assets/stylesheets/notes.css.scss */
+.note_show .note_options {
+  position: absolute;
+  bottom: 0;
+  padding: 5px;
+}
+/* line 44, /Users/julien/Work/Dev/Ruby/donote/app/assets/stylesheets/notes.css.scss */
+.note_show .note_options .fa {
+  color: #333333;
+}
+
+/* line 4, /Users/julien/Work/Dev/Ruby/donote/app/assets/stylesheets/welcome.css.scss */
+#hello {
+  position: relative;
+  background-image: url("http://placekitten.com/g/1920/1080");
+  background-position: center;
+  background-attachment: fixed;
+  margin-left: -15px;
+  margin-right: -15px;
+  margin-top: -40px;
+  margin-bottom: -40px;
+  min-height: 90vh;
+  z-index: 0;
+}
+/* line 16, /Users/julien/Work/Dev/Ruby/donote/app/assets/stylesheets/welcome.css.scss */
+#hello #welcome_text {
+  text-align: center;
+  padding: 100px;
+  color: white;
+  font-size: 30px;
+}
+/* line 21, /Users/julien/Work/Dev/Ruby/donote/app/assets/stylesheets/welcome.css.scss */
+#hello #welcome_text #home_title {
+  color: #06A950;
+}
+/* line 25, /Users/julien/Work/Dev/Ruby/donote/app/assets/stylesheets/welcome.css.scss */
+#hello #home_sign_in {
+  text-align: center;
+}
+/* line 27, /Users/julien/Work/Dev/Ruby/donote/app/assets/stylesheets/welcome.css.scss */
+#hello #home_sign_in .btn {
+  background-color: #06A950;
+  border-radius: 0px;
+  color: white;
+}
+/* line 32, /Users/julien/Work/Dev/Ruby/donote/app/assets/stylesheets/welcome.css.scss */
+#hello #home_sign_in .btn > a {
+  color: white;
+}
+/* line 35, /Users/julien/Work/Dev/Ruby/donote/app/assets/stylesheets/welcome.css.scss */
+#hello #home_sign_in .btn:hover {
+  background-color: #09F071;
+}
+/* line 38, /Users/julien/Work/Dev/Ruby/donote/app/assets/stylesheets/welcome.css.scss */
+#hello #home_sign_in .btn > a:hover {
+  color: white;
+}
+
+@media screen and (max-width: 600px) {
+  /* line 45, /Users/julien/Work/Dev/Ruby/donote/app/assets/stylesheets/welcome.css.scss */
+  #hello > #welcome_text {
+    font-size: 20px;
+  }
+}
